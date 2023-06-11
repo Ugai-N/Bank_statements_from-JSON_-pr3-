@@ -1,7 +1,7 @@
 import os
 from utils.data_manage import load_data, extract_data, sort_list, format_date, mask_account
 
-file = os.path.join('data','operations.json')
+file = os.path.join('data', 'operations.json')
 raw_list = load_data(file)
 filtered_list = extract_data(raw_list)
 sorted_list = sort_list(filtered_list)
